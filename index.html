@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Count Program</title>
+    <style>
+        * {
+            margin: 10px;
+            padding: 20px;
+        }
+
+        h1, h3, p {
+            text-align: center;
+            color: #000;
+        }
+        button {
+        display: block;
+        margin: 30px auto;
+        padding: 20px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        background-color: rgb(216, 96, 22);
+        border: none;
+        border-radius: 10px;
+        }
+        button:hover{
+            color: rgb(0, 0, 0);
+            background-color: rgb(48, 235, 6);
+            border: none;
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>শব্দ গণনা প্রোগ্রাম</h1>
+    <h3>
+        <label for="text">এখানে টাইপ করুন:</label> <br>
+        <input type="text" id="text" placeholder="কিছু লিখুন...">
+    </h3>
+    <br>
+    
+    <h2>
+        <button>এখানে ক্লিক করুন</button>
+    </h2>
+
+    <h3>এখানে গণনা করা শব্দ:</h3>
+    <p id="countWord"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
